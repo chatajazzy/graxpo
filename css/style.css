@@ -706,6 +706,7 @@ h3:after {
     z-index: 1;
     padding-top: 0;
 }
+
 #about .banner:after {
     content: "";
     display: block;
@@ -854,7 +855,19 @@ h3:after {
     background-attachment: fixed;
     position: relative;
     height: auto;
-    max-height: 85vh;
+    max-height: 100vh;
+    padding: 50px 0;
+}
+.unslider {
+    padding: 20px 0 0 0 !important;
+}
+.unslider-nav {
+    display: none;
+}
+
+.my-slider img {
+    height: 100px;
+    max-width: 100px;
 }
 #testimonials:after {
     content: "";

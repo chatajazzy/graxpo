@@ -1299,27 +1299,24 @@ h3:after {
     animation-iteration-count: infinite;
 }
 
-@media (max-width: 536px) and (orientation: landscape) {
+@media (max-width: 1000px) and (orientation: landscape) {
   .banner, #testimonials {
-    height: 100vh !important;
+    max-height: 100vh !important;
   }
   #testimonials, .unslider {
-    padding: 20px 0;
+    padding: 5% 0;
   }
  .unslider, .my-slider {
-    margin: 0 !important;
+    margin: 0 auto !important;
     padding: 0 !important;
-  }
-  #testimonials h3:after {
-    display: none;
   }
   #testimonials p {
     font-size: .8em !important;
-    margin: 5px 0 !important;
+    margin: 5px auto !important;
   }
   .unslider img {
     height: 100px;
-    width: 100px;
+    max-width: 100px;
   }
 
 

@@ -704,6 +704,7 @@ h3:after {
     position: relative;
     height: 70vh;
     z-index: 1;
+    padding-top: 0;
 }
 #about .banner:after {
     content: "";
@@ -1178,6 +1179,7 @@ h3:after {
     margin: 0;
     color: #e84c3d;
 }
+
 @media (min-width: 536px) {
     .page-header > img {
         position: absolute;
@@ -1295,4 +1297,33 @@ h3:after {
     animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+}
+
+@media (max-width: 536px) and (orientation: landscape) {
+  .banner, #testimonials {
+    height: 100vh !important;
+  }
+  #testimonials, .unslider {
+    padding: 20px 0;
+  }
+ .unslider, .my-slider {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #testimonials h3:after {
+    display: none;
+  }
+  #testimonials p {
+    font-size: .8em !important;
+    margin: 5px 0 !important;
+  }
+  .unslider img {
+    height: 100px;
+    width: 100px;
+  }
+
+
+  .unslider .unslider-nav {
+      display: none;
+  }
 }

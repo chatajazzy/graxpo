@@ -1,8 +1,8 @@
 var winHeight = $(window).height();
 
 $(function() {
-  $(".exploring p.title").fitText(1, { minFontSize: '20px', maxFontSize: '40px' });
-  $(".exploring p.banner-subtitle").fitText(1, { minFontSize: '12px', maxFontSize: '20px' });
+  $(".exploring p.title").fitText(1, { minFontSize: '16px', maxFontSize: '35px' });
+  $(".exploring p.banner-subtitle").fitText(1, { minFontSize: '10px', maxFontSize: '20px' });
 
 
   $('a[href*="#"]:not([href="#"])').click(function() {
